@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 html=urlopen("http://www.pythonscraping.com/pages/warandpeace.html")
 bsObj=BeautifulSoup(html,'lxml')
-names=bsObj.finAll('spam',{'class':'green'})
+names=bsObj.findAll('spam',{'class':'green'})
 for name in names:
   print(name.get_text())
  
