@@ -1,0 +1,5 @@
+Find(): The Find option helps you to find only the FIRST occurrence of the word you want to find
+In bs4 find method searches for the first tag with the needed name and returns an object of type bs4. element. Tag
+
+findAll(): The Find ALL option helps you to find all the words which are similar
+And here  find_all method on the other hand, searches for all tags with the needed tag name and returns them as a list of type bs4.
